@@ -107,7 +107,7 @@ p {
 .categories li {
     padding-bottom: 6px;
     border-bottom: dotted 1px #333;
-    list-style-image: url("../pics/vi.png");
+    list-style-image: url("../../pics/vi.png");
     margin-left: 80px;
 }
 
@@ -194,7 +194,7 @@ a:hover {
     height: 700px;
     border: 1px solid black;
     position: relative;
-    background-image: url("../pics/bg3.jpg");
+    background-image: url("../../pics/bg3.jpg");
     background-repeat: no-repeat;
     /*background-position: 100px 200px;*/
     background-position: center bottom;
