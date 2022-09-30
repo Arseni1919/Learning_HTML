@@ -1,0 +1,95 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: coral;
+    color: #fff;
+}
+
+#nav-bar {
+    background-color: #333;
+    color: white;
+}
+
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li {
+    display: inline;
+}
+
+#nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase {
+    background-image: url("../pics/bg3.jpg");
+    background-position: center bottom;
+    min-height: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: black;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    background: #333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    /*everything we will put here will be only accessible when th window size is under 600px*/
+    #main {
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}

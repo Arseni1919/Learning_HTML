@@ -3,6 +3,10 @@
 /*    padding: 0;*/
 /*}*/
 
+.clr {
+    clear: both;
+}
+
 body {
     background-color: #f4f4f4;
     color: #555555;
@@ -42,6 +46,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     word-spacing: 1em;
+}
+
+p::first-letter {
+    color: red;
 }
 
 p {
@@ -156,4 +164,72 @@ a:hover {
     color: white;
 }
 
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    /*flexbox will help here*/
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.p-box {
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url("../pics/bg3.jpg");
+    background-repeat: no-repeat;
+    /*background-position: 100px 200px;*/
+    background-position: center bottom;
+}
+
+.p-box h1 {
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child {
+    background: red;
+}
+
+.my-list li:last-child {
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background: yellowgreen;
+}
+
+.my-list li:nth-child(even){
+    background: lightgray;
+}
 
