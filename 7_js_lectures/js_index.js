@@ -191,4 +191,5 @@ const person1 = new Person('Moti', 'Katz', '4-3-1980')
 console.log(person1)
 console.log(person1.getBirthYear())
 console.log(person1.getFullName())
+
 // console.log(person1.dob.getFullYear())
