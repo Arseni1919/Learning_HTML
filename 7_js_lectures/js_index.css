@@ -1,0 +1,35 @@
+#my-form {
+    /*height: 100px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+}
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.error {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px;
+}
